@@ -1,0 +1,146 @@
+body.contact-us .header-position {
+  margin-top: -125px;
+}
+
+body.contact-us .main-banner-style08 {
+  padding-top: 12%;
+  padding-bottom: 7%;
+}
+.row.mt-n3.mx-auto {
+    width: 90%;
+}
+section.bg-grey.three_section{
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+
+/* Banner */
+body.contact-us .bg-grey {
+  background: transparent;
+}
+
+body.contact-us .main-banner-style08 .cd-headline {
+  color: #0a2463;
+}
+
+body.contact-us strong.text-highlight.font-weight-700 {
+  opacity: 0.95;
+}
+
+/* Quick Contact */
+body.contact-us section.quick_contact {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+section.quick_contact .contact_more_para {
+  color: #000;
+  text-align: left;
+  font-size: 17px;
+}
+.card-style07 i {
+    color: #A3CBE7;
+}
+.card-style07:hover{
+	background: linear-gradient(to left, #29AFC2, #00CCE9);
+}
+.card-style07:hover h3 {
+    color: #fff !important;
+}
+
+section.quick_contact .contact_one_line {
+  text-align: center;
+  color: #0a2463;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+section.quick_contact .quform-elements label {
+  color: #000;
+  font-weight: 500;
+  padding-bottom: 0px;
+  font-size: 14px;
+}
+
+section.quick_contact .quform-elements input {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+section.quick_contact .quform-elements textarea {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+section.quick_contact .quform-submit-inner {
+  text-align: center;
+}
+
+section.quick_contact .butn.style-one.fill {
+  background: #0a2463;
+  font-size: 16px;
+}
+
+section.quick_contact .butn.style-one.fill:hover {
+  background: #000;
+  font-size: 16px;
+}
+
+section.quick_contact .form-control {
+  padding: 0;
+  height: 40px;
+}
+
+section.quick_contact p.text-danger {
+  font-size: 15px !important;
+}
+
+section.quick_contact .text-danger.error-message {
+  font-size: 15px;
+}
+
+/* Right Side Quick Contact */
+section.quick_contact .elementor-section.one_column {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  border: 1px dotted;
+  background: #F3F3F3;
+}
+
+section.quick_contact .elementor-section.one_column h2 {
+  font-size: 20px;
+  margin-top: 10px;
+  color: #0a2463 !important;
+}
+
+section.elementor-section.one_column a:hover {
+  color: #3e92cc;
+}
+
+.error {
+  color: red !important;
+}
+
+/* Responsive */
+@media (min-width: 576px) and (max-width: 767px) {
+  body.contact-us .header-position {
+    margin-top: -50px;
+  }
+
+  .main-banner-style08 .header-text h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  body.contact-us .main-banner-style08 {
+    padding-top: 32%;
+  }
+
+  body.contact-us section.quick_contact {
+    padding: 20px 0 0 0;
+  }
+}

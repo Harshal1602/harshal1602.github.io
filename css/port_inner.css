@@ -1,0 +1,401 @@
+/* Header */
+body .bg-grey {
+    background: #F1F5F9;
+}
+
+/* Banner */
+section.first_section {
+    background-color: #F1F5F9;
+    transform: rotate(180deg);
+}
+
+section.first_section svg {
+    height: 58px;
+    width: calc(100% + 1.3px);
+}
+
+section.first_section svg path {
+    fill: #FFF;
+}
+
+section.first_section h2.first_title {
+    transform: rotate(180deg);
+}
+
+section.first_section .first_p_imgs {
+    transform: rotate(180deg);
+    margin-left: 1%;
+}
+
+/* Second Section */
+.testmonial-style08 {
+    background-image: none;
+}
+
+section.testmonial-style08 {
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+section.testmonial-style08 .line-title:after {
+    background: #252930;
+    height: 4px;
+}
+
+section.testmonial-style08 h2.line-title.black {
+    font-size: 45px;
+}
+
+section.testmonial-style08 .text-purple {
+    color: #5d6778;
+}
+
+section.testmonial-style08 .bg-white {
+    --bs-bg-opacity: 1;
+    border: none !important;
+}
+
+section.testmonial-style08 .card-body {
+    padding: 0;
+}
+
+section.testmonial-style08 .card-body.borders {
+    width: auto;
+    float: unset;
+    border: 1px solid grey;
+    background: #FFF;
+    height: 100%;
+    border-radius: 0px;
+}
+
+section.testmonial-style08 .owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span,
+.owl-theme .owl-dots .owl-dot:focus span {
+    width: 12px;
+    height: 12px;
+    background: #252930;
+    border-color: #252930;
+}
+
+section.testmonial-style08 .text-primary {
+    color: #252930 !important;
+}
+
+section.testmonial-style08 .swiper-slide:hover img {
+    object-position: bottom center;
+    transition: 4000ms ease-out;
+}
+
+section.testmonial-style08 .swiper-slide img {
+    transition: 2000ms ease-out;
+    object-fit: cover;
+    object-position: top center;
+    height: 500px;
+}
+
+section.testmonial-style08 .swiper-slide-image {
+    width: 100%;
+}
+
+/* Third Section */
+section.pi_third_section .line-title:after {
+    background: #252930;
+    height: 4px;
+}
+
+section.pi_third_section .grayscale {
+    --tw-grayscale: grayscale(100%);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+section.pi_third_section .hover\:grayscale-0:hover {
+    --tw-grayscale: grayscale(0);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+section.pi_third_section .hover\:scale-105:hover {
+    --tw-scale-x: 1.05;
+    --tw-scale-y: 1.05;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+section.pi_third_section .object-cover {
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+section.pi_third_section .cursor-pointer {
+    cursor: pointer;
+}
+
+section.pi_third_section .transform {
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+section.pi_third_section .w-full {
+    width: 100%;
+}
+
+section.pi_third_section .h-full {
+    height: 550px;
+}
+
+section.pi_third_section h3.h5.mb-3 {
+    font-weight: 400;
+    font-size: 18px !important;
+}
+
+section.pi_third_section .text-blue {
+    font-weight: bold;
+}
+
+section.pi_third_section .fourty_per {
+    width: 40% !important;
+    margin-left: 20%;
+    height: 600px !important;
+}
+
+section.pi_third_section .fifty_per {
+    width: 50% !important;
+    margin-left: 20%;
+}
+
+*,
+:after,
+:before {
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(59, 130, 246, .5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
+
+/* CTA */
+section.cta {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+section.cta .container.bg_color {
+    background: #a3cbe7;
+    padding: 60px 70px;
+    border-radius: 10px;
+}
+
+section.cta h2.vision {
+    color: #252930 !important;
+    font-weight: 700;
+}
+
+section.cta p.cta_paras {
+    color: #000;
+}
+
+section.cta a.butn.style-three {
+    font-size: 16px;
+    color: #000;
+}
+
+section.cta .butn {
+    background: linear-gradient(-45deg, #FFF, #FFF);
+}
+
+section.cta a.butn:hover,
+a.butn:active,
+a.butn:focus {
+    color: #000;
+}
+
+/* Responsive */
+@media (max-width: 1367px) {
+    section.testmonial-style08 h2.line-title.black {
+        font-size: 2rem;
+    }
+
+    .pi_third_section {
+        padding: 80px 0;
+        padding-top: 80px;
+    }
+
+    .line-title {
+        padding-bottom: 0.9rem;
+    }
+
+    section.pi_third_section .line-title::after {
+        height: 3px;
+    }
+
+    section.testmonial-style08 .line-title::after {
+        height: 3px;
+    }
+
+    section.pi_third_section .fourty_per {
+        height: auto !important;
+    }
+
+    section.pi_third_section .h-full {
+        height: 500px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .first_title {
+        font-size: 2rem;
+    }
+
+    .first_p_imgs {
+        width: 4%;
+    }
+
+    .features_img {
+        width: 80%;
+    }
+
+    section.pi_third_section h3.h5.mb-3 {
+        font-size: 16px !important;
+    }
+
+    section.cta .container.bg_color {
+        padding: 40px 50px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .first_p_imgs {
+        width: 5%;
+    }
+
+    section.pi_third_section .h-full {
+        height: 400px;
+    }
+
+    section.cta {
+        padding-top: 0px;
+    }
+}
+
+@media (max-width: 991px) {
+    .first_inner_port {
+        padding: 20px;
+    }
+
+    .first_p_imgs {
+        width: 4%;
+    }
+
+    section.pi_third_section .h-full {
+        height: 550px;
+    }
+
+    section.cta p.cta_paras {
+        text-align: center !important;
+    }
+
+    .features_nine {
+        margin-bottom: 20px !important;
+    }
+
+    section.pi_third_section .fourty_per {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 30%;
+    }
+
+    .cta_end_inner_port {
+        margin-bottom: 0px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .first_p_imgs {
+        width: 5%;
+    }
+
+    section.cta .container.bg_color {
+        padding: 30px 50px;
+    }
+
+    section.cta a.butn.style-three {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    section.testmonial-style08 .swiper-slide img {
+        height: 320px;
+    }
+
+    .cta_end_inner_port {
+        margin-bottom: 0px !important;
+    }
+
+    .features_nine {
+        margin-bottom: 0px !important;
+    }
+
+    section.pi_third_section .h-full {
+        height: 500px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .first_p_imgs {
+        width: 10%;
+    }
+
+    section.pi_third_section .h-full {
+        height: 250px;
+    }
+
+    section.cta .container.bg_color {
+        padding: 20px 30px;
+    }
+
+    .cta_end_inner_port {
+        margin-bottom: 0 !important;
+    }
+
+    section.cta {
+        padding-bottom: 0px;
+    }
+}

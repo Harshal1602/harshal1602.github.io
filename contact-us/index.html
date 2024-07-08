@@ -137,8 +137,8 @@
         ================================================== -->
         <section class="main-banner-style08 header-position contact_hero">
             <!-- start corner shape -->
-            <div class="left-top-bg"><img src="img/banner/shape-3.png" alt="Contact Us Left" class="lazyload"></div>
-            <div class="right-bottom-bg"><img src="img/banner/shape-4.png" alt="Contact Us Right" class="lazyload"></div>
+            <div class="left-top-bg"><img src="/img/banner/shape-3.png" alt="Contact Us Left" class="lazyload"></div>
+            <div class="right-bottom-bg"><img src="/img/banner/shape-4.png" alt="Contact Us Right" class="lazyload"></div>
             <!-- end corner shape -->
 
             <!-- start animated shape -->
@@ -249,9 +249,8 @@
             </div>
             
              <!-- start form here -->
-             <form method="POST" action="https://harshal1602.github.io/!/forms/contact"><input type="hidden" name="_token" value="bH10O0ivsJAOlYfzOldXPJ2BO2ledsDRcegSMuQQ">
-             
-             
+             <form method="POST" action="https://harshal1602.github.io/!/forms/contact" id="contact-form"><input type="hidden" name="_token" value="60WEHUHdxVBjDI1ZL8seDkSmEkEAnegdMv6zzuKs">
+              <p class="text-green font-bold mb-4">Thanks for submitting your inquiries !!</p>
                 <div class="quform-elements">
                    <div class="row">
                       <!-- Begin Text input element -->
@@ -260,7 +259,7 @@
                             <label for="name">Name <span class="quform-required">*</span></label>
                             <div class="quform-input">
                                <input class="form-control" id="name" value="" type="text" name="name" placeholder="Your name here" />
-                                 
+                                 <div class="text-danger error-message text-right"></div>
                             </div>
                          </div>
                       </div>
@@ -271,7 +270,7 @@
                             <label for="email">Email <span class="quform-required">*</span></label>
                             <div class="quform-input">
                                <input class="form-control" type="text" value="" name="email" placeholder="Your email here" />
-                               
+                               <div class="text-danger error-message text-right"></div>
                             </div>
                          </div>
                       </div>
@@ -282,7 +281,7 @@
                             <label for="subject">Company <span class="quform-required">*</span></label>
                             <div class="quform-input">
                                <input class="form-control" type="text" value="" name="subject" placeholder="Your subject here" />
-                               
+                               <div class="text-danger error-message text-right"></div>
                             </div>
                          </div>
                       </div>
@@ -293,7 +292,7 @@
                             <label for="phone">Phone <span class="quform-required">*</span> </label>
                             <div class="quform-input">
                                <input class="form-control" id="phone" type="number" value="" name="phone" placeholder="Your phone number" />
-                               
+                               <div class="text-danger error-message text-right"></div>
                             </div>
                          </div>
                       </div>
@@ -311,7 +310,8 @@
                       <!-- Begin Submit button -->
                       <div class="col-md-12">
                          <div class="quform-submit-inner mt-3">
-                            <button class="butn style-one fill"><span>Submit</span></button>
+                            <button class="butn style-one fill" id="submitted"><span>Submit</span></button>
+                            <span class="submitting"></span>
                          </div>
                          <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
                       </div>
@@ -456,6 +456,11 @@
 
 
 
+<script async defer="defer" src="/js/jquery.validate.min.js"></script>
+<script async defer="defer" src="/js/contact.js"></script>
+
+
+
 
 <!-- custom scripts -->
 <script async defer="defer" src="/js/main.js"></script>
@@ -467,5 +472,6 @@
 <script src="/js/lazysizes.min.js"></script>
 <!-- Lazyload js -->
 <script src="/js/ls.unveilhooks.min.js"></script>
+
     </body>
 </html>

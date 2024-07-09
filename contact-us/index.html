@@ -8,7 +8,7 @@
 
 <title>Contact Us  - HKey Technologies</title>
 
-<!--<link rel="stylesheet" href="/css/tailwind.css?id=870f0bff5b00e05d6396ca6205bbb391">-->
+<!--<link rel="stylesheet" href="/css/tailwind.css?id=ad80a268302bac41ed3dde2fdf6a3db4">-->
 <link href="/css/fonts.css" rel="preload" as="style">
 <link rel="stylesheet" href="/css/fonts.css">
 <link rel="stylesheet" href="/css/plugins.css">
@@ -248,79 +248,91 @@
                "Submit your inquiry, and we'll respond within 48 hours to discuss it further."
             </div>
             
-             <!-- start form here -->
-             <form method="POST" action="/forms/contact" id="contact-form"><input type="hidden" name="_token" value="bKFFoPM634vPWPTCWDr6nvxB6XLEDr4yqMvyGKKi">
+             
+<!-- start form here -->
+<form action="https://submit-form.com/tR2gHUgqG">
+   
+   <input
+   type="hidden"
+   name="_redirect"
+   value="http://127.0.0.1:8000/contact-us?message=submitted"
+ />
+ <input type="hidden" name="_email.subject" value="Thank you for submitting your details" />
+ <input type="hidden" name="_email.from" value="HKey Technologies" />
+ <input type="hidden" name="_email.email" value="hkeytechnologies@gmail.com" />
 
-               <input type="hidden" name="_token" value="bKFFoPM634vPWPTCWDr6nvxB6XLEDr4yqMvyGKKi">
-              <p class="text-green font-bold mb-4">Thanks for submitting your inquiries !!</p>
-                <div class="quform-elements">
-                   <div class="row">
-                      <!-- Begin Text input element -->
-                      <div class="col-md-6">
-                         <div class="quform-element form-group">
-                            <label for="name">Name <span class="quform-required">*</span></label>
-                            <div class="quform-input">
-                               <input class="form-control" id="name" value="" type="text" name="name" placeholder="Your name here" />
-                                 <div class="text-danger error-message text-right"></div>
-                            </div>
-                         </div>
-                      </div>
-                      <!-- End Text input element -->
-                      <!-- Begin Text input element -->
-                      <div class="col-md-6">
-                         <div class="quform-element form-group">
-                            <label for="email">Email <span class="quform-required">*</span></label>
-                            <div class="quform-input">
-                               <input class="form-control" type="text" value="" name="email" placeholder="Your email here" />
-                               <div class="text-danger error-message text-right"></div>
-                            </div>
-                         </div>
-                      </div>
-                      <!-- End Text input element -->
-                      <!-- Begin Text input element -->
-                      <div class="col-md-6">
-                         <div class="quform-element form-group">
-                            <label for="subject">Company <span class="quform-required">*</span></label>
-                            <div class="quform-input">
-                               <input class="form-control" type="text" value="" name="subject" placeholder="Your subject here" />
-                               <div class="text-danger error-message text-right"></div>
-                            </div>
-                         </div>
-                      </div>
-                      <!-- End Text input element -->
-                      <!-- Begin Text input element -->
-                      <div class="col-md-6">
-                         <div class="quform-element form-group">
-                            <label for="phone">Phone <span class="quform-required">*</span> </label>
-                            <div class="quform-input">
-                               <input class="form-control" id="phone" type="number" value="" name="phone" placeholder="Your phone number" />
-                               <div class="text-danger error-message text-right"></div>
-                            </div>
-                         </div>
-                      </div>
-                      <!-- End Text input element -->
-                      <!-- Begin Textarea element -->
-                      <div class="col-md-12">
-                         <div class="quform-element form-group">
-                            <label for="message">Message </label>
-                            <div class="quform-input">
-                               <textarea class="form-control" id="message_new" name="message_new" rows="4" placeholder="Tell us a few words"></textarea>
-                            </div>
-                         </div>
-                      </div>
-                      <!-- End Textarea element -->
-                      <!-- Begin Submit button -->
-                      <div class="col-md-12">
-                         <div class="quform-submit-inner mt-3">
-                            <button class="butn style-one fill" id="submitted"><span>Submit</span></button>
-                            <span class="submitting"></span>
-                         </div>
-                         <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
-                      </div>
-                      <!-- End Submit button -->
-                   </div>
-                </div>
-                </form>
+     <div class="quform-elements">
+        <div class="row">
+           <!-- Begin Text input element -->
+           <div class="col-md-6">
+              <div class="quform-element form-group">
+                 <label for="name">Name <span class="quform-required">*</span></label>
+                 <div class="quform-input">
+                    <input class="form-control" id="name" type="text" name="name" placeholder="Your name here" required="" />
+                      <div class="text-danger error-message text-right"></div>
+                 </div>
+              </div>
+           </div>
+           <!-- End Text input element -->
+           <!-- Begin Text input element -->
+           <div class="col-md-6">
+              <div class="quform-element form-group">
+                 <label for="email">Email <span class="quform-required">*</span></label>
+                 <div class="quform-input">
+                    <input class="form-control" type="email" name="email" placeholder="Your email here" required />
+                    <div class="text-danger error-message text-right"></div>
+                 </div>
+              </div>
+           </div>
+           <!-- End Text input element -->
+           <!-- Begin Text input element -->
+           <div class="col-md-6">
+              <div class="quform-element form-group">
+                 <label for="subject">Company <span class="quform-required">*</span></label>
+                 <div class="quform-input">
+                    <input class="form-control" type="text" name="subject" placeholder="Your subject here" required=""/>
+                    <div class="text-danger error-message text-right"></div>
+                 </div>
+              </div>
+           </div>
+           <!-- End Text input element -->
+           <!-- Begin Text input element -->
+           <div class="col-md-6">
+              <div class="quform-element form-group">
+                 <label for="phone">Phone <span class="quform-required">*</span> </label>
+                 <div class="quform-input">
+                    <input class="form-control" id="phone" type="number" name="phone" placeholder="Your phone number" required="" />
+                    <div class="text-danger error-message text-right"></div>
+                 </div>
+              </div>
+           </div>
+           <!-- End Text input element -->
+           <!-- Begin Textarea element -->
+           <div class="col-md-12">
+              <div class="quform-element form-group">
+                 <label for="message">Message </label>
+                 <div class="quform-input">
+                    <textarea class="form-control" id="message_new" name="message_new" rows="4" placeholder="Tell us a few words"></textarea>
+                 </div>
+              </div>
+           </div>
+           <!-- End Textarea element -->
+           <!-- Begin Submit button -->
+           <div class="col-md-12">
+           <div class="g-recaptcha" data-sitekey="6Lcu4AsqAAAAAF0gZUTjqrFbq3z1c7maCm3rjNPq"></div>
+           <br/>
+           </div>
+           <div class="col-md-12">
+              <div class="quform-submit-inner mt-3">
+                 <button class="butn style-one fill" id="submitted"><span>Submit</span></button>
+                 <span class="submitting"></span>
+              </div>
+              <div class="quform-loading-wrap text-start"><span class="quform-loading"></span></div>
+           </div>
+           <!-- End Submit button -->
+        </div>
+     </div>
+     </form>
              <!-- end form here -->
           </div>
 		</div>
@@ -458,7 +470,7 @@
 
 
 
-<script async defer="defer" src="/js/jquery.validate.min.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script async defer="defer" src="/js/contact.js"></script>
 
 

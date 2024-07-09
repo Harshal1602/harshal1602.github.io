@@ -19,6 +19,11 @@ body.contact-us .bg-grey {
   background: transparent;
 }
 
+body.contact-us .text-green-contact {
+  color: green;
+  font-size: 17px;
+}
+
 body.contact-us .main-banner-style08 .cd-headline {
   color: #0a2463;
 }

@@ -1,0 +1,9 @@
+.bg-grey {
+  background-color: transparent;
+}
+body.thank-you section.four_error{
+  margin-top: 2%;
+}
+body.thank-you a,body.thank-you a:active,body.thank-you a:focus {
+  color: initial;
+}
